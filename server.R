@@ -1,7 +1,7 @@
 library(shiny)
 library(randomForest)
 
-# The RandomForest model built from the Kaggle Titanic tutorial, the final model was built as follows:
+# The RandomForest model modified from the Kaggle Titanic tutorial, the final model was built as follows:
 #  fit <- randomForest(as.factor(Survived) ~ Pclass + Sex + Age + SibSp + Parch + Fare + Embarked  
 #           data=train, importance=TRUE, ntree=2000)
 #
